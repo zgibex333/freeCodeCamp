@@ -163,7 +163,7 @@ const myArray = [["Bulls", 2], []];
 const myArray = [50, 60, 70];
 const myData = myArray[0];
 
-// task 
+// task
 
 // Setup
 const myArray = [18, 64, 99];
@@ -171,39 +171,175 @@ const myArray = [18, 64, 99];
 // Only change code below this line
 myArray[0] = 45;
 
-//  task 
+//  task
 
 const myArray = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-    [[10, 11, 12], 13, 14],
-  ];
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const myData = myArray[2][1];
+
+// task
+
+// Setup
+const myArray = [
+  ["John", 23],
+  ["cat", 2],
+];
+
+// Only change code below this line
+myArray.push(["dog", 3]);
+
+// task
+
+// Setup
+const myArray = [
+  ["John", 23],
+  ["cat", 2],
+];
+
+// Only change code below this line
+const removedFromMyArray = myArray.pop();
+
+//  task
+
+// Setup
+const myArray = [
+  ["John", 23],
+  ["dog", 3],
+];
+
+// Only change code below this line
+
+const removedFromMyArray = myArray.shift();
+
+// task
+
+// Setup
+const myArray = [
+  ["John", 23],
+  ["dog", 3],
+];
+myArray.shift();
+
+// Only change code below this line
+myArray.unshift(["Paul", 35]);
+
+// task
+
+const myList = [
+  ["Chocolate Bar", 15],
+  ["Chips", 10],
+  ["Coke", 8],
+  ["Beer", 10],
+  ["Lemonade", 100],
+];
+
+// task
+
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction();
+
+// task
+
+function functionWithArgs(a, b) {
+  console.log(a + b);
+}
+
+functionWithArgs(1, 2);
+
+// task
+
+function timesFive(num) {
+  return num * 5;
+}
+
+// task
+
+// Declare the myGlobal variable below this line
+let myGlobal = 10;
+var oopsGlobal;
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+  oopsGlobal = 5;
+}
+
+// Only change code above this line
+
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
+// task 
+
+function myLocalScope() {
+    // Only change code below this line
+    const myVar = 'qwe'; 
+    console.log('inside myLocalScope', myVar);
+  }
+  myLocalScope();
   
-  const myData = myArray[2][1];
+  // Run and check the console
+  // myVar is not defined outside of myLocalScope
+  console.log('outside myLocalScope', myVar);
+
+//   task 
+
+// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  const outerWear = "sweater"
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
 
 // task 
 
 // Setup
-const myArray = [["John", 23], ["cat", 2]];
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
 
 // Only change code below this line
-myArray.push(["dog", 3])
+
+function addFive() {
+  sum+=5; 
+}
+// Only change code above this line
+
+addThree();
+addFive();
 
 // task 
 
 // Setup
-const myArray = [["John", 23], ["cat", 2]];
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+processed = processArg(7)
 
 // Only change code below this line
-const removedFromMyArray = myArray.pop(); 
 
-//  task 
-
-// Setup
-const myArray = [["John", 23], ["dog", 3]];
-
-// Only change code below this line
-
-const removedFromMyArray = myArray.shift()
 
