@@ -44,12 +44,63 @@ a /= 12;
 b /= 4;
 c /= 11;
 
-// task 
+// task
 
-const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+const myStr = 'I am a "double quoted" string inside "double quotes".'; // Change this line
 
-// task 
+// task
 
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
+// task
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+
+// task
+
+const myStr = "This is the start." + " " + "This is the end."; // Change this line
+
+// task
+
+let myStr = "This is the first sentence.";
+myStr += " This is the second sentence.";
+
+// task
+
+// Only change code below this line
+const myName = "Denis";
+const myStr = "My name is " + myName + "and I am well!";
+
+//task
+
+// Change code below this line
+const someAdjective = "hard enough";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
+
+// task 
+
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
+
+// task 
+
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
+
+// task 
+
+// Setup
+let myStr = "Jello World";
+
+// Only change code below this line
+myStr = "Hello World"; // Change this line
+// Only change code above this line
 
