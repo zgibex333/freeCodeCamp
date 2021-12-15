@@ -714,204 +714,205 @@ function switchOfStuff(val) {
 
 switchOfStuff(1);
 
-// task 
+// task
 
 function sequentialSizes(val) {
-    let answer = "";
-    // Only change code below this line
-    switch(val) {
-      case 1: 
-      case 2: 
-      case 3: 
-      answer = 'Low'
-      break; 
-      case 4: 
-      case 5: 
-      case 6: 
-      answer = 'Mid'
-      break; 
-      case 7: 
-      case 8: 
-      case 9: 
-      answer = 'High'
-      break; 
-  
-    }
-  
-  
-    // Only change code above this line
-    return answer;
+  let answer = "";
+  // Only change code below this line
+  switch (val) {
+    case 1:
+    case 2:
+    case 3:
+      answer = "Low";
+      break;
+    case 4:
+    case 5:
+    case 6:
+      answer = "Mid";
+      break;
+    case 7:
+    case 8:
+    case 9:
+      answer = "High";
+      break;
   }
-  
-  sequentialSizes(1);
 
-//   task 
+  // Only change code above this line
+  return answer;
+}
+
+sequentialSizes(1);
+
+//   task
 
 function chainToSwitch(val) {
-    let answer = "";
-    // Only change code below this line
-    switch(val) {
-      case 'bob': 
-      answer = "Marley"
+  let answer = "";
+  // Only change code below this line
+  switch (val) {
+    case "bob":
+      answer = "Marley";
       break;
-      case 42: 
-      answer = "The Answer"
+    case 42:
+      answer = "The Answer";
       break;
-      case 1: 
-      answer = "There is no #1"
+    case 1:
+      answer = "There is no #1";
       break;
-      case 99: 
-      answer = "Missed me by this much!"
+    case 99:
+      answer = "Missed me by this much!";
       break;
-      case 7: 
-      answer = "Ate Nine"
+    case 7:
+      answer = "Ate Nine";
       break;
-    }
-    
-  
-    // Only change code above this line
-    return answer;
   }
-  
-  chainToSwitch(7);
 
-//   task 
+  // Only change code above this line
+  return answer;
+}
+
+chainToSwitch(7);
+
+//   task
 
 function isLess(a, b) {
-    // Only change code below this line
-    return a < b; 
-    // Only change code above this line
-  }
-  
-  isLess(10, 15);
+  // Only change code below this line
+  return a < b;
+  // Only change code above this line
+}
 
-//   task 
+isLess(10, 15);
+
+//   task
 
 // Setup
 function abTest(a, b) {
-    // Only change code below this line
-  
-  if(a < 0 || b < 0)  {
-    return 
-  }
-  
-    // Only change code above this line
-  
-    return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
-  }
-  
-  abTest(2,2);
+  // Only change code below this line
 
-//   task 
+  if (a < 0 || b < 0) {
+    return;
+  }
+
+  // Only change code above this line
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+
+abTest(2, 2);
+
+//   task
 
 let count = 0;
 
 function cc(card) {
   // Only change code below this line
-  if(card >= 2 && card <= 6) {
-    count++
+  if (card >= 2 && card <= 6) {
+    count++;
   }
-  if (card === 10 || typeof card === 'string') {
-    count--
+  if (card === 10 || typeof card === "string") {
+    count--;
   }
 
-  return count > 0 ? count + ' Bet' : count + ' Hold';
+  return count > 0 ? count + " Bet" : count + " Hold";
   // Only change code above this line
 }
 
-cc(2); cc(3); cc(7); cc('K'); cc('A');
+cc(2);
+cc(3);
+cc(7);
+cc("K");
+cc("A");
 
-// task 
+// task
 
 const myDog = {
-    // Only change code below this line
-    name: '13', 
-    legs: 12, 
-    tails: 12, 
-    friends: []
-  
-    // Only change code above this line
-  };
-
-//   task 
-// Setup
-const testObj = {
-    "hat": "ballcap",
-    "shirt": "jersey",
-    "shoes": "cleats"
-  };
-  
   // Only change code below this line
-  const hatValue = testObj.hat;      // Change this line
-  const shirtValue = testObj.shirt;    // Change this line
+  name: "13",
+  legs: 12,
+  tails: 12,
+  friends: [],
 
-//   task 
-
-// Setup
-const testObj = {
-    "an entree": "hamburger",
-    "my side": "veggies",
-    "the drink": "water"
-  };
-  
-  // Only change code below this line
-  const entreeValue = testObj["an entree"];   // Change this line
-  const drinkValue = testObj["the drink"];    // Change this line
-
-//   task 
-
-// Setup
-const testObj = {
-    12: "Namath",
-    16: "Montana",
-    19: "Unitas"
-  };
-  
-  // Only change code below this line
-  const playerNumber = 16;  // Change this line
-  const player = testObj[playerNumber];   // Change this line
-
-//  task 
-
-// Setup
-const myDog = {
-  "name": "Coder",
-  "legs": 4,
-  "tails": 1,
-  "friends": ["freeCodeCamp Campers"]
+  // Only change code above this line
 };
 
-myDog.name = 'Happy Coder'
+//   task
+// Setup
+const testObj = {
+  hat: "ballcap",
+  shirt: "jersey",
+  shoes: "cleats",
+};
+
+// Only change code below this line
+const hatValue = testObj.hat; // Change this line
+const shirtValue = testObj.shirt; // Change this line
+
+//   task
+
+// Setup
+const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water",
+};
+
+// Only change code below this line
+const entreeValue = testObj["an entree"]; // Change this line
+const drinkValue = testObj["the drink"]; // Change this line
+
+//   task
+
+// Setup
+const testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas",
+};
+
+// Only change code below this line
+const playerNumber = 16; // Change this line
+const player = testObj[playerNumber]; // Change this line
+
+//  task
+
+// Setup
+const myDog = {
+  name: "Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
+};
+
+myDog.name = "Happy Coder";
 
 // Only change code below this line
 
-// task 
+// task
 
 const myDog = {
-  "name": "Happy Coder",
-  "legs": 4,
-  "tails": 1,
-  "friends": ["freeCodeCamp Campers"]
+  name: "Happy Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
 };
 
 myDog.bark = "woof";
 
-// task 
+// task
 
 // Setup
 const myDog = {
-  "name": "Happy Coder",
-  "legs": 4,
-  "tails": 1,
-  "friends": ["freeCodeCamp Campers"],
-  "bark": "woof"
+  name: "Happy Coder",
+  legs: 4,
+  tails: 1,
+  friends: ["freeCodeCamp Campers"],
+  bark: "woof",
 };
 
 // Only change code below this line
 
 delete myDog.tails;
 
-// task 
+// task
 
 // Setup
 function phoneticLookup(val) {
@@ -919,18 +920,206 @@ function phoneticLookup(val) {
 
   // Only change code below this line
   const find = {
-   "alpha":  "Adams",
-   "bravo":  "Boston",
-   "charlie":  "Chicago",
-   "delta":  "Denver",
-   "echo":  "Easy",
-   "foxtrot":  "Frank",
-  }
+    alpha: "Adams",
+    bravo: "Boston",
+    charlie: "Chicago",
+    delta: "Denver",
+    echo: "Easy",
+    foxtrot: "Frank",
+  };
 
-  result = find[val]
+  result = find[val];
 
   // Only change code above this line
   return result;
 }
 
 phoneticLookup("charlie");
+
+// task
+
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+
+  return obj.hasOwnProperty(checkProp) ? obj[checkProp] : "Not Found";
+  // Only change code above this line
+}
+
+// task
+
+const myMusic = [
+  {
+    artist: "Billy Joel",
+    title: "Piano Man",
+    release_year: 1973,
+    formats: ["CD", "8T", "LP"],
+    gold: true,
+  },
+  {
+    artist: "Daft Punk",
+    title: "Homework",
+    release_year: 1997,
+    formats: ["CD", "8T", "LP"],
+    gold: true,
+  },
+];
+
+// task
+
+const myStorage = {
+  car: {
+    inside: {
+      "glove box": "maps",
+      "passenger seat": "crumbs",
+    },
+    outside: {
+      trunk: "jack",
+    },
+  },
+};
+
+const gloveBoxContents = myStorage.car.inside["glove box"];
+
+// task
+
+const myPlants = [
+  {
+    type: "flowers",
+    list: ["rose", "tulip", "dandelion"],
+  },
+  {
+    type: "trees",
+    list: ["fir", "pine", "birch"],
+  },
+];
+
+const secondTree = myPlants[1].list[1];
+
+// task
+
+// Setup
+const recordCollection = {
+  2548: {
+    albumTitle: "Slippery When Wet",
+    artist: "Bon Jovi",
+    tracks: ["Let It Rock", "You Give Love a Bad Name"],
+  },
+  2468: {
+    albumTitle: "1999",
+    artist: "Prince",
+    tracks: ["1999", "Little Red Corvette"],
+  },
+  1245: {
+    artist: "Robert Palmer",
+    tracks: [],
+  },
+  5439: {
+    albumTitle: "ABBA Gold",
+  },
+};
+
+// Only change code below this line
+function updateRecords(records, id, prop, value) {
+  if (prop !== "tracks" && value) {
+    records[id][prop] = value;
+  }
+  if (prop === "tracks" && !records[id]["tracks"]) {
+    records[id]["tracks"] = [value];
+  }
+  if (prop === "tracks" && records[id]["tracks"]) {
+    records[id]["tracks"].push(value);
+  }
+  if (!value) {
+    delete records[id][prop];
+  }
+
+  return records;
+}
+
+updateRecords(recordCollection, 5439, "artist", "ABBA");
+
+// task
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+let i = 5;
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
+
+// task
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+for (let i = 1; i <= 5; i++) {
+  myArray.push(i);
+}
+
+
+// task 
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+
+for(let i=1; i <= 10; i+=2) {
+  myArray.push(i)
+}
+
+// task 
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+
+for(let i = 9; i >= 0; i-=2) {
+  myArray.push(i)
+}
+
+// task 
+
+// Setup
+const myArr = [2, 3, 4, 5, 6];
+
+// Only change code below this line
+
+let total = 0;
+
+for (let i = 0; i<myArr.length; i++) {
+  total+=myArr[i]
+}
+
+// task 
+
+function multiplyAll(arr) {
+  let product = 1;
+  // Only change code below this line
+  for (let i=0; i < arr.length; i++) {
+    for(let j=0; j < arr[i].length; j++) {
+      product *= arr[i][j]
+    }
+  }
+  // Only change code above this line
+  return product;
+}
+
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+
+// task 
+
+// Setup
+const myArray = [];
+let i = 10;
+
+// Only change code below this line
+do{
+   myArray.push(i);
+  i++;
+} while (i < 10) 
