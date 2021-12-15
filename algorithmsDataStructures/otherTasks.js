@@ -775,4 +775,162 @@ function chainToSwitch(val) {
   
   chainToSwitch(7);
 
-//   
+//   task 
+
+function isLess(a, b) {
+    // Only change code below this line
+    return a < b; 
+    // Only change code above this line
+  }
+  
+  isLess(10, 15);
+
+//   task 
+
+// Setup
+function abTest(a, b) {
+    // Only change code below this line
+  
+  if(a < 0 || b < 0)  {
+    return 
+  }
+  
+    // Only change code above this line
+  
+    return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+  }
+  
+  abTest(2,2);
+
+//   task 
+
+let count = 0;
+
+function cc(card) {
+  // Only change code below this line
+  if(card >= 2 && card <= 6) {
+    count++
+  }
+  if (card === 10 || typeof card === 'string') {
+    count--
+  }
+
+  return count > 0 ? count + ' Bet' : count + ' Hold';
+  // Only change code above this line
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+// task 
+
+const myDog = {
+    // Only change code below this line
+    name: '13', 
+    legs: 12, 
+    tails: 12, 
+    friends: []
+  
+    // Only change code above this line
+  };
+
+//   task 
+// Setup
+const testObj = {
+    "hat": "ballcap",
+    "shirt": "jersey",
+    "shoes": "cleats"
+  };
+  
+  // Only change code below this line
+  const hatValue = testObj.hat;      // Change this line
+  const shirtValue = testObj.shirt;    // Change this line
+
+//   task 
+
+// Setup
+const testObj = {
+    "an entree": "hamburger",
+    "my side": "veggies",
+    "the drink": "water"
+  };
+  
+  // Only change code below this line
+  const entreeValue = testObj["an entree"];   // Change this line
+  const drinkValue = testObj["the drink"];    // Change this line
+
+//   task 
+
+// Setup
+const testObj = {
+    12: "Namath",
+    16: "Montana",
+    19: "Unitas"
+  };
+  
+  // Only change code below this line
+  const playerNumber = 16;  // Change this line
+  const player = testObj[playerNumber];   // Change this line
+
+//  task 
+
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.name = 'Happy Coder'
+
+// Only change code below this line
+
+// task 
+
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.bark = "woof";
+
+// task 
+
+// Setup
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+
+delete myDog.tails;
+
+// task 
+
+// Setup
+function phoneticLookup(val) {
+  let result = "";
+
+  // Only change code below this line
+  const find = {
+   "alpha":  "Adams",
+   "bravo":  "Boston",
+   "charlie":  "Chicago",
+   "delta":  "Denver",
+   "echo":  "Easy",
+   "foxtrot":  "Frank",
+  }
+
+  result = find[val]
+
+  // Only change code above this line
+  return result;
+}
+
+phoneticLookup("charlie");
