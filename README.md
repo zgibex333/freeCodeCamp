@@ -1,5 +1,2 @@
 # There are
-
-# freeCodeCamp tasks
-
-# for ItIncubator
+# freeCodeCamp tasks  for ItIncubator
